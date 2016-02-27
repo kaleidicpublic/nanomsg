@@ -7,3 +7,5 @@ __dummy.html
 *.out
 
 nanomsg
+
+dub.selections.json

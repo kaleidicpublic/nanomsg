@@ -1,0 +1,20 @@
+{
+	"name": "nanomsg",
+	"description": "Deimos bindings for the nanomsg library",
+	"homepage": "http://nanomsg.org/",
+	"license": "MIT/X11",
+	"importPaths": ["."],
+	"libs-posix" : ["nanomsg"],
+	"configurations" : [
+		{
+			"name": "library",
+			"targetType": "sourceLibrary",
+		},
+		{
+			"name": "unittest",
+			"targetType": "executable",
+			"sourcePaths": ["deimos/nanomsg"],
+			"dflags": ["-main"],
+		}
+	]
+}
