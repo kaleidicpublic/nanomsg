@@ -1,0 +1,4 @@
+This directory contains automatic tests for nanomsg library. Some test works only on Posix systems.
+
+The WebSocket stress test depends upon a separate installation of Autobahn
+Testsuite, available at: http://autobahn.ws/testsuite/installation.html
