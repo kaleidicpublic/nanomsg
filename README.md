@@ -10,7 +10,8 @@ The communication patterns, also called "scalability protocols", are basic block
 - PUBSUB - distributes messages to large sets of interested subscribers
 - PIPELINE - aggregates messages from multiple sources and load balances them among many destinations
 - SURVEY - allows to query state of multiple applications in a single go
-- Scalability protocols are layered on top of the transport layer in the network stack. At the moment, the nanomsg library supports the following transports mechanisms:
+
+Scalability protocols are layered on top of the transport layer in the network stack. At the moment, the nanomsg library supports the following transports mechanisms:
 
 - INPROC - transport within a process (between threads, modules etc.)
 - IPC - transport between processes on a single machine
