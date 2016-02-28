@@ -4,7 +4,7 @@
 	"homepage": "http://nanomsg.org/",
 	"license": "MIT/X11",
 	"importPaths": ["."],
-	"libs-posix" : ["nanomsg"],
+	"libs" : ["nanomsg"],
 	"configurations" : [
 		{
 			"name": "library",
