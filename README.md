@@ -22,3 +22,12 @@ The library exposes a BSD-socket-like C API to the applications.
 It is licensed under MIT/X11 license.
 
 "nanomsg" is a trademark of Martin Sustrik
+
+# Usage
+
+```D
+import deimos.nanomsg.nn; //main header
+import deimos.nanomsg.reqrep; // other heasers
+import deimos.nanomsg.inproc;
+...
+```
