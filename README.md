@@ -21,7 +21,7 @@ The library exposes a BSD-socket-like C API to the applications.
 
 It is licensed under MIT/X11 license.
 
-"nanomsg" is a trademark of Martin Sustrik
+"nanomsg" is a trademark of Garrett D'Amore
 
 # Usage
 
